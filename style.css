@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 80vw;
+    min-width: 500px;
+    margin: auto;
+}
+
+.top {
+    padding: 40px;
+    border-bottom: 3px solid black;
+}
+
+.top span {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.section {
+    display: flex;
+}
+
+.section>* {
+    padding: 20px;
+}
+
+.section .section-name {
+    min-width: 200px;
+    font-weight: bold;
+    font-size: 22px;
+    vertical-align: top;
+    background-color: lightgray;
+}
+
+.section .section-content {
+    min-width: 300px;
+    border-left: 3px solid black;
+    vertical-align: top;
+}
+
+.section .section-content>* {
+    margin: 10px;
+}
+
+.header {
+    font-weight: bold;
+}
